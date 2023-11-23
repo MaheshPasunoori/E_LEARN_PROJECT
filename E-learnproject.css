@@ -157,6 +157,36 @@
 #heading span{
     color: brown;
 }
+#headabout{
+    background-color: rgba(0, 0, 255, 0.568);
+    padding-left: 20%;
+    color: white;
+}
+span{
+    color: brown;
+}
+.QEnquery{
+    border: 2px solid red;
+    border: none;
+    padding-left: 120px;
+    padding-top: 10px;
+    background-color: rgb(109, 165, 214);
+    margin: 15px;
+}
+#address{
+    border:2px solid red;
+    background-color:rgb(109, 165, 214);
+    margin-top: 15px;
+    margin-bottom: 11px;
+    color: white;
+    font-size: 16px;
+
+}
+#homelink{
+    color: white;
+    text-decoration:none;
+    
+}
 
 
 
