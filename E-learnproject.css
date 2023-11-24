@@ -217,6 +217,18 @@ span{
     text-align: start;
     
 }
+.crp:hover{
+    font-size: 16px;
+    width: 116px;
+    margin-left: 5px;
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Homecourses img:hover{
+transform: translate(1%);
+}
+
+
     
 
 
