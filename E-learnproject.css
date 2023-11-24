@@ -203,6 +203,20 @@ span{
     margin-left: 180px;
     justify-content: center;
 }
+#Privacypolicy p{
+    text-align: start;
+    text-align: justify;
+}
+#Refundpolicy p{
+    text-align: start;
+    text-align: justify;
+}
+#Quicklinks a{
+    color: white;
+    text-decoration: none;
+    text-align: start;
+    
+}
     
 
 
