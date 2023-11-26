@@ -126,16 +126,21 @@
       <!------------------------------------------------------------------------------------------------->
       <section class="container">
         <div class="row">
-            <div class="col-12 col-lg-8">
-                <form action="" class="QEnquery py-3 px-2">
-                    <input type="text" placeholder="Enquery" class=" form-control text-bg-secondary" id="" value="Quick Enquery"><br>
-                    <input type="text" placeholder="Your Name" class=" form-control " id=""><br>
-                    <input type="email" placeholder="E-Mail Id" class=" form-control" id=""><br>
-                    <input type="text" placeholder="Subject" class=" form-control" id=""><br>
-                    <input type="tel" placeholder="Telephone Number" class=" form-control" id=""><br>
-                    <textarea placeholder="Message" class="form-control-lg"></textarea><br>
-                    <input type="submit" placeholder="Send" class="form-control" id="">
-                </form>
+            <div class="col-12 col-lg-8" id="QEnquery">
+        <form action="" name="contact" method="get" onsubmit="return Validation()" class="QEnquery py-3 px-2">
+        <h5>Quick Enquiry</h5><br>
+        <input type="text" name="stuName" id="username" placeholder="Enter Name" class=" form-control">
+        <p id = "userNote"></p>
+        <input type="tel" name="stuMobile" id="usermobile" placeholder="Enter Mobile Number" class=" form-control">
+        <p id = "mobileNote"></p>
+        <input type="email" name="stuEmail" id="useremail" placeholder="Enter Mail Id" class=" form-control"><br>
+        <p id="emailNote"></p>
+        <input type="text" name="StudentSubject" id="StudentSubject" placeholder="Subject" class=" form-control"><br>
+        <p id="subNote"></p>
+        <textarea  name="StuMsg" class="form-control" placeholder="Message" ></textarea><br>
+        <p id="msgNote"></p>
+        <input type="submit" name="submit" id="submit" class=" form-control">
+        </form>
             </div>
             <div class="col-12 col-lg-4 p-lg-5" id="address">
                 <b><p>ADDRESS</p></b>
@@ -218,7 +223,7 @@
     
 
      <script src="js/bootstrap.bundle.min.js"></script>
-
+     <script src="Validations.js"></script>
 </body>
 
 </html>
